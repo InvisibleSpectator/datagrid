@@ -1,0 +1,54 @@
+{
+  "head":{
+    "id": "ID",
+    "rank": "Ранк",
+    "mentor": "Ментор",
+    "name": "Имя",
+    "githubId": "GitHub",
+    "totalScore": "Счёт",
+    "totalScoreChangeDate": "Дата изменения счёта",
+    "locationName": "Город",
+    "taskResults": "Результаты заданий",
+    "isActive": "Активен"
+  },
+  "data": [
+    {
+      "id": 11553.564,
+      "rank": 1,
+      "name": "Petro Yuskiv",
+      "githubId": "yuskivpm",
+      "totalScore": 230,
+      "totalScoreChangeDate": "2020-02-26T22:00:00.247Z",
+      "locationName": "Lviv",
+      "taskResults": [{ "courseTaskId": 371, "score": 230 }],
+      "isActive": true,
+      "asd":"asdasdasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": 12022,
+      "rank": 2,
+      "name": "Mikita Nemau",
+      "githubId": "dobrynanikitich",
+      "totalScore": 230,
+      "totalScoreChangeDate": "2020-02-26T22:00:00.247Z",
+      "locationName": "Minsk",
+
+      "isActive": true,
+      "asd":"asdasdasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+    },
+    {
+      "id": 11568,
+      "rank": 3,
+      "name": "Olga Ivanova",
+      "githubId": "o1vanova",
+      "totalScore": 230,
+      "totalScoreChangeDate": "2020-03-01T16:30:00.294Z",
+      "locationName": "Moscow",
+      "taskResults": [{ "courseTaskId": 372, "score": 230 }],
+      "isActive": true,
+      "asd":"asdasdasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+    }
+  ]
+}

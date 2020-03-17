@@ -1,0 +1,100 @@
+.head {
+  background-color: white;
+  opacity: 1;
+  z-index: 100;
+  box-sizing: border-box;
+  text-align: center;
+  align-content: center;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: #000;
+  height: inherit !important;
+
+  /**
+             * Для эксплорера
+             */
+  -ms-user-select: none;
+
+  /**
+              * Для мозилы
+              */
+  -moz-user-select: none;
+
+  /**
+              * Для конкверора
+              */
+  -khtml-user-select: none;
+
+  /**
+              * Для Сафари и Хрома
+              */
+  -webkit-user-select: none;
+}
+
+.tableCell {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.headRow {
+  overflow: visible !important;
+}
+
+tr {
+  display: block;
+}
+
+td {
+  padding: 12px;
+}
+
+
+.leftColumn {
+  position: sticky;
+  position: -webkit-sticky;
+  left: 0 !important;
+  background-color: white;
+  opacity: 1;
+  z-index: 101;
+}
+
+.number {
+  text-align: right;
+}
+
+.string {
+  white-space: nowrap;
+  /* Запрещаем перенос строк */
+  overflow: hidden;
+  /* Обрезаем все, что не помещается в область */
+  text-overflow: ellipsis;
+  /* Добавляем многоточие */
+}
+
+.object {
+  overflow: auto;
+  height: inherit;
+}
+
+.tableBody {
+  width: max-content !important;
+  overflow-x: visible !important;
+}
+
+.ListItemEven {
+  background-color: #f8f8f0;
+}
+
+.ListItemOdd {
+  background-color: #999999;
+}
+
+.contaner {
+  height: calc(100vh - 18px);
+  overflow-x: auto;
+  width: auto;
+  overflow-y: hidden;
+}
